@@ -94,3 +94,17 @@ body {
     color: white;
     cursor: pointer;
 }
+
+
+/* section one */
+
+.sectionOne{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4vh 11vw;
+}
+
+.sectionOne h1{
+    font-size: 4.9rem;
+}
