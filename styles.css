@@ -51,6 +51,9 @@ body {
 /* navegation menu */
 
 .header{
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 10vh;
     padding: 0 10%;
@@ -204,4 +207,19 @@ body {
     font-weight: 600;
     color: gray;
 }
+
+.sectionTwo{
+    background-color: #010813;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 11vw;
+}
+
+.sectionTwo .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 
